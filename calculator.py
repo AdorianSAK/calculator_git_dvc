@@ -11,3 +11,5 @@ def divide(a, b):
     return a / b
 def sine(angle):
     return math.sin(math.radians(angle))
+def cosine(angle):
+    return math.cos(math.radians(angle))
