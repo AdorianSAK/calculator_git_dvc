@@ -1,0 +1,5 @@
+outs:
+- md5: bcf879acc068dd2a44f29f03eee90abd
+  size: 2465
+  hash: md5
+  path: operations.csv
