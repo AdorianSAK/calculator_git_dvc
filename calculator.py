@@ -15,3 +15,5 @@ def cosine(angle):
     return math.cos(math.radians(angle))
 def tangent(angle):
     return math.tan(math.radians(angle))
+def exponential(x):
+    return math.exp(x)
