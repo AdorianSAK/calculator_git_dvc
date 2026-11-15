@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  brief:
+    cmd: python3 -m scripts.process
+    deps:
+    - path: data/operations.csv
+      hash: md5
+      md5: 1d052908ec65f384549b5e58c1342d1a
+      size: 12674
+    - path: scripts/process.py
+      hash: md5
+      md5: 2ce42876f770c720afe8bf6fe174b4dd
+      size: 783
+    outs:
+    - path: results/brief.csv
+      hash: md5
+      md5: c91834bfa79033023fa0130ee12c6339
+      size: 152

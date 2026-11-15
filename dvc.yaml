@@ -1,0 +1,8 @@
+stages:
+  brief:
+    cmd: python3 -m scripts.process
+    deps:
+    - data/operations.csv
+    - scripts/process.py
+    outs:
+    - results/brief.csv
